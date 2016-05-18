@@ -1,0 +1,202 @@
+.fusion-main-menu .current-menu-ancestor > a, .fusion-main-menu .current-menu-item > a, .fusion-main-menu .current-menu-parent > a, .fusion-main-menu .current_page_item > a {
+    border-bottom: 5px solid !important;
+border-top: 0px solid !important;
+}
+
+.fusion-main-menu > ul > li > a:hover {
+    border-bottom: 5px solid !important;
+border-top: 0px solid !important;
+}
+
+
+.fusion-main-menu > ul > li > a {
+    border-top: 0px solid transparent!important;
+}
+
+.avada-skin-rev {
+    border-bottom: 0 solid;
+    border-top: 0 solid;
+}
+
+.fusion-mobile-menu-sep, .fusion-secondary-main-menu {
+    border-bottom: 0 solid !important;
+}
+
+.first_section_text {
+    width: 65%;
+    padding-bottom: 30px;
+}
+
+.second_section {
+    margin-top: -220px;
+}
+
+.second_section_text {
+    width: 80%;
+    padding-bottom: 30px;
+    color:#fff;
+}
+
+.third_section_text {
+    width: 80%;
+    padding-bottom: 30px;
+    color:#fff;
+    font-size:16px;
+}
+
+.title1 {
+    color: #303e48;
+    font-family: texgyreadventor-ital;
+    font-size: 3.5vmax;
+}
+
+.title2 {
+    color: #303e48;
+    font-family: texgyreadventor-bita; 
+    font-size: 4vmax; 
+    line-height: 25px;
+}
+
+.latest_projects {
+    font-family: texgyreadventor-bita; 
+    font-size: 42px; 
+    color: #ffffff;
+}
+
+.seeus {
+    margin-top:40px;
+}
+
+.fusion-rollover-gallery::before {
+    content: url("/wp-content/uploads/2016/05/Plus-sign-.png");
+}
+
+
+.wpcf7-form .wpcf7-text, .wpcf7-form .wpcf7-quiz, .wpcf7-form .wpcf7-number, 
+.wpcf7-form .wpcf7-captchar, .wpcf7-form .wpcf7-date {
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+
+.comment-form input[type="submit"], .fusion-button, .fusion-load-more-button, 
+.ticket-selector-submit-btn[type="submit"], .wpcf7-form input[type="submit"] {
+    font-family: "texgyreadventor-ital";
+    font-size: 32px;
+    padding-left: 0;
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+}
+
+.fusion-footer-widget-area {
+    font-family: "raleway";
+    font-weight: 100;
+    font-size:14px;
+}
+
+.youtube { 
+    width: 21px;
+    height:22px;
+    display:block;
+    float: right;
+    background-image: url('/wp-content/uploads/2016/05/youtube.png');
+}
+.youtube:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.yelp { 
+    width: 16px;
+    height:22px;
+    display:block;
+    float: right;
+    background-image: url('/wp-content/uploads/2016/05/yelp.png');
+}
+.yelp:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.twitter { 
+    width: 18px;
+    height:22px;
+    display:block;
+    float: right;
+    background-image: url('/wp-content/uploads/2016/05/twitter.png');
+}
+.twitter:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.facebook { 
+    width: 11px;
+    height:22px;
+    display:block;
+    float: right;
+    background-image: url('/wp-content/uploads/2016/05/facebook.png');
+}
+.facebook:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.googleplus { 
+    width: 24px;
+    height:22px;
+    display:block;
+    float: right;
+    background-image: url('/wp-content/uploads/2016/05/google-plus.png');
+}
+.googleplus:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.form_section {
+    position: relative;
+    z-index: 99999;
+    margin-top: -10px;
+}
+
+@media(min-width: 2500px) {
+ .title1 {
+    font-size: 2.5vmax;
+}
+
+.title2 {
+    font-size: 3vmax; 
+}
+
+.latest_projects {
+   margin-top: 120px;
+}
+
+.second_section {
+    margin-top: -280px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.seeus {
+    margin-top: 220px !important;
+}
+}
+
+
+
